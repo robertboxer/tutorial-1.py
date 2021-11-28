@@ -3,6 +3,9 @@
 import pygame
 pygame.init()
 
+import os
+os.environ["SDL_VIDEODRIVER"] = "dummy"
+
 win = pygame.display.set_mode((500,500))
 
 pygame.display.set_caption("First Game")
