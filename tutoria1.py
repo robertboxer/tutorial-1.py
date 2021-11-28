@@ -1,6 +1,7 @@
 
 
 import pygame
+from pygame.locals import *
 pygame.init()
 
 import os
