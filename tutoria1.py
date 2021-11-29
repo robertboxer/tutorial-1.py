@@ -1,11 +1,10 @@
 
 
 import pygame
+import readline
+
 from pygame.locals import *
 pygame.init()
-
-import os
-os.environ["SDL_VIDEODRIVER"] = "dummy"
 
 win = pygame.display.set_mode((500,500))
 
